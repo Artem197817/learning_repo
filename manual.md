@@ -2,6 +2,12 @@
 ## Настройка Git
 + git config --global user.name "Your Name" - запись имени пользователя
 + git config --global user.email "your_email@whatever.com" - запись электронной почты пользователя
+### Команды настройки сокращенного вида частоиспользуемых команд
++ git config --global alias.co checkout
++ git config --global alias.ci commit
++ git config --global alias.st status
++ git config --global alias.br branch
++ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 ## Команды инициализации и записи изменений
 + git init - инициализация реппозитария
 + git add name file - добавить файл к коммиту

@@ -1,4 +1,7 @@
 # Руководтво
+## Настройка Git
++ git config --global user.name "Your Name" - запись имени пользователя
++ git config --global user.email "your_email@whatever.com" - запись электронной почты пользователя
 ## Команды инициализации и записи изменений
 + git init - инициализация реппозитария
 + git add name file - добавить файл к коммиту
